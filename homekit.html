@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<!--HTML and CSS template-->
+
+<head>
+<style> /*CSS Style definitions start here*/
+#container /*Styles for Container*/
+{
+	width:100%;
+	margin: auto; /*Centres the main container*/
+	max-width: 800px;
+	border:1px solid gray;
+	background-color: #00b300;
+}
+
+#header /*Styles for Header*/
+{
+	padding: 15px;
+	color: #ffffff;
+	font-family: "Space Mono", monospace;
+      	font-size: 16px;
+	background-color: #234b0a;
+}
+
+#banner 
+{
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+#navbar
+{
+	float:left; /*Moves the container to the left*/
+	width:160px;
+	font-family: "Space Mono", monospace;
+	margin:0;
+	padding:15px;
+}
+
+#content /*Styles for Main Content area*/
+{
+	margin-left:190px;
+	padding:10px;
+	font-family: "Space Mono", monospace;
+      	font-size: 16px;
+	background-color: #d8fcd5;
+}
+
+#footer
+{
+	font-size: 10px;
+}
+
+/*Styles for links*/
+a:link			{color: #ffffff;}
+a.blue:link  {color: #003961;}
+a:visited    {color: #ffffff;}
+a.blue:visited {color:#003961}
+a:hover     {color: #000000;}
+a:active    {color: #ffffff;}
+
+img {
+	display: inline;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.hpodmini {
+	width: 40%;
+	height: 40%;
+	margin-left: auto;
+  margin-right: auto;
+	
+}
+
+.hpod {
+	width: 35%;
+	height: 35%;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.wwhk {
+	width:25%;
+	height: 25%;
+}
+
+.homepod {
+	width: 100%;
+	text-align:center;
+}
+	
+
+
+</style>
+</head>
+
+
+<body> <!--Main site content begins here-->
+<div id="container"> <!--Page container-->
+
+<div id="header"> <!--Main header-->
+  <h1 id="banner">How to build a smart home</h1>
+</div>
+
+<div id="navbar"> <!--Navigation bar-->
+  <p>
+  <nav>
+  <a href="Main.html">Home</a> <br>
+	<hr>
+	<a href="Matter.html">Matter</a> <br>
+  <a href="HomeKit.html">HomeKit</a><br>  
+	<a href="Home-Assistant.html">Home Assistant</a><br>
+  <a href="GoogleHome.html">Google Home</a><br>
+	<a href="AmazonAlexa.html">Amazon Alexa</a>
+	<hr>
+	<a href="Sources.html">Sources</a><br>
+	<a href="Form.html" >Sign up!</a>
+  </nav>
+  </p>
+</div>
+
+<div id="content"> <!--Main content-->
+  <h2>What is HomeKit?<img src="works-with-homekit-logo.jpg" alt="HomeKit Logo" class="wwhk"></h2>
+  <hr> <!--Creates a horizontal rule-->
+  <p>HomeKit is a smart home controller and an ecosystem of devices on it's own.</p>
+  <hr>
+	<p>The HomeKit ecosystem is made by Apple and there are two main controllers that you would have to get: The <a href="https://www.apple.com/homepod-mini/" target="_blank" class="blue">HomePod Mini</a> or the <a href="https://www.apple.com/homepod-2nd-generation/" target="_blank" class="blue">Homepod (2nd gen).</a> You can also get an Apple TV and that would also act as a hub.</p> <!--Empty paragraphs-->
+	
+	<div class="homepod">
+		<img src="homepod-mini.png" alt="HomePod Mini" class="hpodmini"> </h2>
+		<img src="homepod-2.png" alt="HomePod 2nd" class="hpod"> </h2>
+	</div>
+	<p>There is a wide range of devices for you to use with HomeKit. The HomePods are both equipped with Thread radios, so you can use the same (but different) low power deviced and sensors like Zigbee.</p>
+
+	<p>To every smart home system you can connect hubs, which are made by different manufacturers, to connect their devices which do not work straight up with HomeKit or some other system.
+	<hr>
+		
+		<div id="footer">
+			<footer>Made by Vejas Sereicikas, 2023</footer>
+		</div>
+</body>
+</html>
