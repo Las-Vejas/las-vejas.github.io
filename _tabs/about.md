@@ -6,3 +6,5 @@ order: 4
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
+
+Hi my nmae is Vejas. I'm 14 years old, and a bit frustrated w/ github...
